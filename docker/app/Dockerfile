@@ -11,7 +11,6 @@ RUN go mod init my-project
 
 RUN go mod tidy
 
-
 RUN go mod download
 # watchexec のインストール
 RUN apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/community watchexec
